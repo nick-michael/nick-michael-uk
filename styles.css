@@ -1,0 +1,13 @@
+.name {
+    font: 6em arial, sans-serif;
+    text-align: center;
+}
+
+.qr {
+    margin: auto;
+    width: 70vw;
+    height: 70vh;
+    max-width: 328px;
+    max-height: 328px;
+    background: url('nick-michael-uk.svg') no-repeat center center;
+}
