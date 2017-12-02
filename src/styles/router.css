@@ -1,0 +1,51 @@
+.router {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.button-back {
+    position: relative;
+    top: 100px;
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+    background: #A44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 0px;
+    border-color: #C88;
+    border-style: solid;
+    box-sizing: border-box;
+    transition: border-width 0.3s;
+    cursor: pointer;
+}
+
+.button-back:hover {
+    border-width: 3px;
+}
+
+.panel {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0%;
+    transition: left 0.8s ease-in-out;
+}
+
+.panel-enter, .panel-reverse-exit {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 100%;
+}
+
+.panel-exit, .panel-reverse-enter {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: -100%;
+}
